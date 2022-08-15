@@ -1,0 +1,55 @@
+//Компонент .subheader
+.subheader {
+   height: 84px;
+   background: rgba(0, 0, 0, 0.6);
+   position: absolute;
+   width: 100%;
+   top: 50px;
+
+   &_logo {
+      display: block;
+      max-width: 100%;
+      margin-top: 16px;
+   }
+
+   &_official {
+      margin-top: 6px;
+      font-weight: 100;
+      font-size: 13px;
+      color: white;
+   }
+
+   &_call {
+      color: white;
+      font-size: 12px;
+      font-weight: 300px;
+      margin-top: 19px;
+      text-align: right;
+   }
+
+   &_phone {
+      display: block;
+      margin-top: 8px;
+      color: white;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 12px;
+      text-align: right;
+      text-transform: uppercase;
+   }
+
+   &_btn {
+      margin-top: 19px;
+      width: 172px;
+      height: 46px;
+      background: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+      box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+      border: none;
+      border-radius: 4px;
+      font-weight: 400;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #ffffff;
+      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+   }
+}

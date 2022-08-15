@@ -1,0 +1,42 @@
+//Компонент .reasons
+.reasons {
+   margin-bottom: 50px;
+   margin-top: 19px;
+
+   &_block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+   }
+
+   &_block:nth-child(-n + 2) {
+      margin-top: 0px;
+   }
+
+   &_round {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 26px;
+      width: 113px;
+      height: 113px;
+      background-color: #1eacc7;
+      border-radius: 100%;
+   }
+
+   &_text {
+      width: 371px;
+   }
+   &_tittle {
+      color: #1eacc7;
+      font-weight: 400;
+      font-size: 17px;
+   }
+   &_subtittle {
+      color: #202020;
+      font-weight: 300;
+      font-size: 15px;
+   }
+}
