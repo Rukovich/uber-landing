@@ -6,7 +6,7 @@
    margin: 0;
    list-style-type: none;
 
-   &_item {
+   &__item {
       border-right: 2px dotted black;
       padding-right: 28px;
 
@@ -16,7 +16,7 @@
       }
    }
 
-   &_link {
+   &__link {
       color: #ffffff;
       font-weight: 300;
       font-size: 15px;

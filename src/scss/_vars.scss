@@ -1,0 +1,11 @@
+//Variables
+$bg_color: #1eacc7;
+
+
+//mixins
+@mixin btn_hover {
+   &:hover {
+      background-image: none;
+      background-color: $bg_color;
+   }
+}
