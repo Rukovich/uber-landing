@@ -1,14 +1,19 @@
 //Компонент .label
 .label {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 0px auto 33px auto;
+   padding: 0.5em 1em;
    font-weight: 400;
    font-size: 11px;
    text-transform: uppercase;
    color: #ffffff;
-   width: 115px;
+   width: 110px;
    min-height: 27px;
    background: #000000;
+   margin: 0 auto;
+   margin-bottom: 33px;
+}
+.label_white {
+   background:white;
+   color:black;
+   position: relative;
+   margin-top: 55px;
 }

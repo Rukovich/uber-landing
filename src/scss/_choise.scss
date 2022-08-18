@@ -1,0 +1,31 @@
+.choise {
+   min-height: 900px;
+   // padding-top: 54px;
+   padding-bottom: 137px;
+   background: url(../img/bg/mobile_bg.png) center (center / cover) no-repeat;
+
+
+   &__car {
+      display: block;
+      height: 480px;
+      padding-top: 54px;
+      margin: 0 auto;
+      position: relative;
+   }
+
+   &__descr {
+      font-size: 17px;
+      line-height: 24px;
+      color: #222222;
+      text-align: center;
+   }
+
+   &__bg {
+      background: #070716;
+      position: absolute ;
+		left: 0;
+		height: 490px;
+		width: 100%;
+		margin-top: -55px;
+   }
+}
