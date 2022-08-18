@@ -45,7 +45,7 @@
    }
 
    &_plus {
-      background: #1EACC7;
+      background: $bg_color;
       height: 14px;
       width: 2px;
       position: relative;
@@ -54,7 +54,7 @@
          content: "";
          height: 2px;
          width: 14px;
-         background: #1EACC7;
+         background: $bg_color;
          position: absolute;
          left: -6px;
          top: 6px;
