@@ -1,8 +1,10 @@
 .footer {
-   height: 156px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+   &__wrapper {
+      height: 156px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
 
    &__icons {
       display: flex;
@@ -41,6 +43,7 @@
          font-size: 15px;
          text-transform: uppercase;
          margin-bottom: 15px;
+
          & a {
             color: #070716;
 
@@ -66,6 +69,7 @@
          font-weight: 400;
          text-transform: uppercase;
          color: #1FBAD6;
+
          &:hover {
             text-decoration: underline;
          }
@@ -86,4 +90,14 @@
          width: 95px;
       }
    }
+}
+
+.divider {
+   margin-top: 14px;
+   width: 299px;
+   height: 4px;
+   background-color: #1fbad6;
+   margin: 0 auto;
+   margin-top: 14px;
+   margin-bottom: -14px;
 }
