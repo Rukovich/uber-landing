@@ -1,0 +1,16 @@
+.world {
+   background: #080816;
+
+
+   &__bg {
+      background: url(../img/bg/world_bg.png) center (center / cover) no-repeat;
+      padding: 46px 0 50px 0;
+      height: 717px;
+   }
+
+   &__link {
+      display: block;
+      text-align: center;
+      margin-top: 480px;
+   }
+}
