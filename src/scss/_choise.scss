@@ -10,6 +10,10 @@
       padding-top: 54px;
       margin: 0 auto;
       position: relative;
+
+      @media (max-width: 1200px) {
+         height: 50vw;
+      }
    }
 
    &__descr {
