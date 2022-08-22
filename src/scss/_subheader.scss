@@ -1,6 +1,4 @@
 
-
-
 //Компонент .subheader
 .subheader {
    height: 84px;
@@ -13,6 +11,11 @@
       display: block;
       max-width: 100%;
       margin-top: 16px;
+      & img {
+         @media (max-width: 991px) {
+            width: 100%;
+         }
+      }
    }
 
    &_official {
@@ -20,6 +23,10 @@
       font-weight: 100;
       font-size: 13px;
       color: white;
+
+      @media (max-width: 991px) {
+         font-size: 11px;
+      }
    }
 
    &_call {
@@ -39,6 +46,10 @@
       line-height: 12px;
       text-align: right;
       text-transform: uppercase;
+
+      @media (max-width: 991px) {
+         font-size: 18px;
+      }
    }
 
    &_btn {
@@ -55,5 +66,11 @@
       color: #ffffff;
       text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
       @include btn_hover;
+
+      @media (max-width: 991px) {
+         margin-top: 21px;
+         height: 40px;
+         width: 100%;
+      }
    }
 }

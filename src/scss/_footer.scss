@@ -4,6 +4,10 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+
+      @media (max-width: 575px) {
+         flex-direction: column;
+      }
    }
 
    &__icons {
@@ -79,7 +83,7 @@
    &__app {
       display: flex;
       justify-content: space-between;
-      width: 300px;
+      max-width: 300px;
 
       &:last-child {
          margin-right: 20px;
