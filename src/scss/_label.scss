@@ -11,6 +11,10 @@
    margin: 0 auto;
    margin-bottom: 33px;
    text-align: center;
+
+   @media (max-width: 575px) {
+      margin-bottom: 16px;
+   }
 }
 
 .label_white {

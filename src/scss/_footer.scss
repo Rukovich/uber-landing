@@ -6,14 +6,16 @@
       justify-content: space-between;
 
       @media (max-width: 991px) {
-         font-size: 40px;
+         flex-direction: column;
       }
    }
 
    &__icons {
       display: flex;
       align-items: center;
-      width: 300px;
+      max-width: 300px;
+      width: 30vw;
+      min-width: 180px;
 
       &:first-child {
          margin-left: 10px;
@@ -37,7 +39,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 400px;
+      max-width: 400px;
+      // width: 40vw;
 
       .footer__linkTop {
          display: flex;
@@ -57,7 +60,7 @@
       .footer__linkMiddle {
          display: flex;
          justify-content: space-between;
-         width: 400px;
+         // max-width: 400px;
          font-weight: 300;
          font-size: 11px;
          text-transform: uppercase;
@@ -84,6 +87,7 @@
       display: flex;
       justify-content: space-between;
       max-width: 300px;
+      // width: 30vw;
 
       &:last-child {
          margin-right: 20px;
@@ -98,7 +102,7 @@
 
 .divider {
    margin-top: 14px;
-   width: 299px;
+   max-width: 299px;
    height: 4px;
    background-color: #1fbad6;
    margin: 0 auto;

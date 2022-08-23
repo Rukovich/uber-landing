@@ -29,6 +29,15 @@
       height: 113px;
       background-color: #1eacc7;
       border-radius: 100%;
+
+      @media (max-width: 767px) {
+         margin-right: 0;
+      }
+
+      @media (max-width: 575px) {
+         width: 100px;
+         height: 100px;
+      }
    }
 
    &_text {
@@ -37,15 +46,22 @@
       @media (max-width: 1200px) {
          width: 300px;
       }
-      // @media (max-width: 991px) {
-      //    margin-top: 20px;
-      // }
+      @media (max-width: 575px) {
+         width: 100%;
+      }
    }
 
    &_tittle {
       color: #1eacc7;
       font-weight: 400;
       font-size: 17px;
+
+      @media (max-width: 991px) {
+         margin-top: 10px;
+      }
+      @media (max-width: 575px) {
+         margin-top: 20px;
+      }
    }
 
    &_subtittle {
