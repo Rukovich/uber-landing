@@ -30,11 +30,11 @@
       background-color: #1eacc7;
       border-radius: 100%;
 
-      @media (max-width: 767px) {
+      @media (max-width: $md) {
          margin-right: 0;
       }
 
-      @media (max-width: 575px) {
+      @media (max-width: $xs) {
          width: 100px;
          height: 100px;
       }
@@ -43,10 +43,10 @@
    &_text {
       width: 371px;
 
-      @media (max-width: 1200px) {
+      @media (max-width: $xl) {
          width: 300px;
       }
-      @media (max-width: 575px) {
+      @media (max-width: $xs) {
          width: 100%;
       }
    }

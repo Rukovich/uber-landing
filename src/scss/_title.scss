@@ -1,6 +1,5 @@
 //Компонент .title
 .title {
-   display: block;
    text-align: center;
    text-transform: uppercase;
    color: #222222;
@@ -16,5 +15,11 @@
 
 .title_white {
    color: white;
-   position: relative;
+   // position: relative;
+}
+
+.title_xs {
+   @media (max-width: $md) {
+      margin-bottom: 0px;
+   }
 }

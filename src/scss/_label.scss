@@ -12,14 +12,18 @@
    margin-bottom: 33px;
    text-align: center;
 
-   @media (max-width: 575px) {
-      margin-bottom: 16px;
-   }
 }
 
 .label_white {
    background: white;
    color: black;
    position: relative;
+
 }
 
+.label_xs {
+   @media (max-width: $xs) {
+      margin-bottom: 13px;
+   }
+
+}
