@@ -1,12 +1,13 @@
 .footer {
    &__wrapper {
-      height: 156px;
+      height: 135px;
       display: flex;
       align-items: center;
       justify-content: space-between;
 
-      @media (max-width: 991px) {
+      @media (max-width: $lg) {
          flex-direction: column;
+         height: 224px;
       }
    }
 
@@ -17,8 +18,18 @@
       width: 30vw;
       min-width: 180px;
 
+      @media (max-width: $lg) {
+         order: 2;
+      }
+
       &:first-child {
          margin-left: 10px;
+
+         @media (max-width: $lg) {
+            margin-left: 0;
+            display: flex;
+            justify-content: center;
+         }
       }
 
       & a {
@@ -40,7 +51,11 @@
       flex-direction: column;
       align-items: center;
       max-width: 400px;
-      // width: 40vw;
+
+      @media (max-width: $lg) {
+         order: 1;
+         margin-top: 21px;
+      }
 
       .footer__linkTop {
          display: flex;
@@ -53,14 +68,18 @@
 
          & a {
             color: #070716;
+         }
 
+         @media (max-width: $lg) {
+            margin-bottom: 10px;
+            font-size: 14px;
          }
       }
 
       .footer__linkMiddle {
          display: flex;
          justify-content: space-between;
-         // max-width: 400px;
+         width: 390px;
          font-weight: 300;
          font-size: 11px;
          text-transform: uppercase;
@@ -68,6 +87,23 @@
 
          & a {
             color: #999999;
+         }
+
+         @media (max-width: $xl) {
+            width: 350px;
+         }
+
+         @media (max-width: $lg) {
+            width: 300px;
+         }
+
+         @media (max-width: $xs) {
+            width: 240px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 30px;
+            justify-content: space-between;
          }
       }
 
@@ -80,6 +116,10 @@
          &:hover {
             text-decoration: underline;
          }
+
+         @media (max-width: $xs) {
+            padding-top: 16px;
+         }
       }
    }
 
@@ -87,7 +127,11 @@
       display: flex;
       justify-content: space-between;
       max-width: 300px;
-      // width: 30vw;
+
+      @media (max-width: $lg) {
+         order: 3;
+         margin-bottom: 19px;
+      }
 
       &:last-child {
          margin-right: 20px;
@@ -98,14 +142,4 @@
          width: 95px;
       }
    }
-}
-
-.divider {
-   margin-top: 14px;
-   max-width: 299px;
-   height: 4px;
-   background-color: #1fbad6;
-   margin: 0 auto;
-   margin-top: 14px;
-   margin-bottom: -14px;
 }
