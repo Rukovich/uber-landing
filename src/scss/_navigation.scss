@@ -43,6 +43,8 @@
    &__item {
       border-right: 2px dotted black;
       padding-right: 28px;
+      width: 100%;
+      text-align: center;
 
       @media (max-width: 1200px) {
          padding-right: 20px;
@@ -68,6 +70,7 @@
       color: #ffffff;
       font-weight: 300;
       font-size: 15px;
+      display: block;
 
       @media (max-width: 1200px) {
          font-size: 13px;
