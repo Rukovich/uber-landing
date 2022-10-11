@@ -7,7 +7,7 @@
    width: 100%;
    top: 50px;
 
-   @media (max-width: 575px) {
+   @media (max-width: $xs) {
       height: 60px;
       top: 29px;
    }
@@ -17,7 +17,7 @@
       max-width: 100%;
       margin-top: 16px;
       & img {
-         @media (max-width: 991px) {
+         @media (max-width: $lg) {
             width: 100%;
          }
       }
@@ -29,10 +29,10 @@
       font-size: 13px;
       color: white;
 
-      @media (max-width: 991px) {
+      @media (max-width: $lg) {
          font-size: 11px;
       }
-      @media (max-width: 575px) {
+      @media (max-width: $xs) {
          display: none;
       }
    }
@@ -81,12 +81,12 @@
       text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
       @include btn_hover;
 
-      @media (max-width: 991px) {
+      @media (max-width: $lg) {
          margin-top: 21px;
          height: 40px;
          width: 100%;
       }
-      @media (max-width: 767px) {
+      @media (max-width: $md) {
          width: 200px;
          height: 40px;
          margin: 0 auto;
