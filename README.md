@@ -1,5 +1,6 @@
 This is my educational landing-project assembled with the help of VITE and SCSS
 
-Look: 
+## look:
 
-fancy-toffee-b8e983.netlify.app
+https://uber-landing.netlify.app
+
